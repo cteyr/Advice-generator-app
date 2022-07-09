@@ -11,25 +11,26 @@
     position: relative;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     justify-content: center;
-    height: 40vh;
-    width: 25vw;
-    min-width: 440px;
+    height: 18rem;
+    width: 32rem;
     //background-color: red;
     border-radius: 10px;
     background-color: hsl(217, 19%, 24%);
 
     @media screen and (max-width: 768px) {
       display: flex;
-      width: 90%;
-      min-width: 90%;
+      width: 95%;
+      height: 22rem;
     }
 
     h5 {
       color: hsl(150, 53%, 43%);
       letter-spacing: 0.2rem;
-      margin-bottom: 1rem;
     }
 
     .text-container {
@@ -41,7 +42,20 @@
       height: 100%;
       font-size: 1.5rem;
       color: hsl(193, 38%, 86%);
-      //background-color: red;
+      padding: 0rem, 1rem;
+    }
+
+    .parttern_divider_desktop {
+      display: inherit;
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+    .parttern_divider_mobile {
+      display: none;
+      @media screen and (max-width: 768px) {
+        display: inherit;
+      }
     }
 
     button {
@@ -49,13 +63,17 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 40vh;
+      margin-top: 18rem;
       background-color: hsl(150, 100%, 66%);
       border-radius: 50%;
       height: 3rem;
       width: 3rem;
       border: none;
       outline: none;
+
+      @media screen and (max-width: 768px) {
+        margin-top: 22rem;
+      }
 
       img {
         height: 1.2rem;

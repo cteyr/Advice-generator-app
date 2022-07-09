@@ -1,6 +1,10 @@
 import { Button } from "../components/Button";
 import { useState, useEffect } from "react";
 import axios from "axios";
+// @ts-ignore
+import parttern_divider_desktop from "../assets/images/pattern-divider-desktop.svg";
+// @ts-ignore
+import parttern_divider_mobile from "../assets/images/pattern-divider-mobile.svg";
 
 const MainContainer = () => {
   const [Advice, setAdvice] = useState("");
@@ -27,6 +31,12 @@ const MainContainer = () => {
       <div className="center-container">
         <h5>ADVICE #{Id}</h5>
         <div className="text-container">"{Advice}"</div>
+        <div className="parttern_divider_desktop">
+          <img src={parttern_divider_desktop} alt="" />
+        </div>
+        <div className="parttern_divider_mobile">
+          <img src={parttern_divider_mobile} alt="" />
+        </div>
         <Button onclick={() => Random(1, 224)} />
       </div>
     </div>
