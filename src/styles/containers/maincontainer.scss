@@ -70,14 +70,16 @@
       margin-top: 18rem;
       background-color: hsl(150, 100%, 66%);
       border-radius: 50%;
-      height: 3.5rem;
-      width: 3.5rem;
+      height: 3rem;
+      width: 3rem;
       border: none;
       outline: none;
       transition: 0.2s;
 
       @media screen and (max-width: 768px) {
         margin-top: 23.5rem;
+        height: 3.5rem;
+        width: 3.5rem;
       }
 
       img {
