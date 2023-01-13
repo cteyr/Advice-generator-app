@@ -16,16 +16,15 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     justify-content: center;
-    height: 18rem;
+    height: 20rem;
     width: 32rem;
-    //background-color: red;
     border-radius: 10px;
     background-color: hsl(217, 19%, 24%);
 
     @media screen and (max-width: 768px) {
       display: flex;
       width: 95%;
-      height: 23.5rem;
+      height: 25rem;
     }
 
     h5 {
@@ -51,12 +50,14 @@
 
     .parttern_divider_desktop {
       display: inherit;
+      margin-bottom: 1rem;
       @media screen and (max-width: 768px) {
         display: none;
       }
     }
     .parttern_divider_mobile {
       display: none;
+      margin-bottom: 1rem;
       @media screen and (max-width: 768px) {
         display: inherit;
       }
@@ -67,17 +68,17 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 18rem;
+      margin-top: 20rem;
       background-color: hsl(150, 100%, 66%);
       border-radius: 50%;
-      height: 3rem;
-      width: 3rem;
+      height: 3.5rem;
+      width: 3.5rem;
       border: none;
       outline: none;
       transition: 0.2s;
 
       @media screen and (max-width: 768px) {
-        margin-top: 23.5rem;
+        margin-top: 25rem;
         height: 3.5rem;
         width: 3.5rem;
       }
