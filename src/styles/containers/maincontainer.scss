@@ -57,7 +57,7 @@
     }
     .parttern_divider_mobile {
       display: none;
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
       @media screen and (max-width: 768px) {
         display: inherit;
       }
